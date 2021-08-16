@@ -2,13 +2,13 @@
 
 ## Problem Statement:
 
-For a given location in New York City, our goal is to predict the number of pickups in that given location. Some location require more taxis at a particular time than other locations owing to the presence schools, hospitals, offices etc. The prediction result can be transferred to the taxi drivers via Smartphone app, and they can subsequently move to the locations where predicted pickups are high.
+For a given location in New York City, our goal is to predict the number of pickups in that given location. Some location require more taxis at a particular time than other locations owing to the presence of schools, hospitals, offices etc. The prediction result can be transferred to the taxi drivers via Smartphone app, and they can subsequently move to the locations where predicted pickups are high.
 
 ## Objectives & Constraints:
 
-#### Objectives: 
+#### <ins>Objectives</ins>: 
 
-Our objective is to predict the number of pickups as accurately as possible for each region in a 10 mins interval. We will break up the whole New York City into      regions. Now, the 10min interval is chosen because in NYC one can commute 1 mile in approximately 10 mins given the       traffic is normal at that particular time.
+Our objective is to predict the number of pickups as accurately as possible for each region in a 10 mins interval. We will break up the whole New York City into      regions. Now, the 10 mins interval is chosen because in NYC one can commute 1 mile in approximately 10 mins given the traffic is normal at that particular time.
 
 #### <ins>Constraints</ins>:
 
@@ -24,4 +24,5 @@ We have used Jan-2015 and Jan-2016 data.
 
 ## Acknowledgments
 
-- Applied AI Course
+- [Applied AI Course](https://www.appliedaicourse.com/)
+- [Gaurav Sharma](https://www.linkedin.com/in/gaurav-sharma-639399175/)
