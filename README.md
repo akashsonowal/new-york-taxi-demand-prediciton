@@ -10,7 +10,7 @@ For a given location in New York City, our goal is to predict the number of pick
 
 Our objective is to predict the number of pickups as accurately as possible for each region in a 10 mins interval. We will break up the whole New York City into      regions. Now, the 10min interval is chosen because in NYC one can commute 1 mile in approximately 10 mins given the       traffic is normal at that particular time.
 
-#### Constraints:
+#### <ins>Constraints</ins>:
 
 - Latency Given a location and current time of a taxi driver, as a taxi driver, he/she excepts to get the predicted pickups in his/her region and the         adjoining regions in few seconds. Hence, there is a medium latency requirement.
 
