@@ -20,11 +20,11 @@ Our objective is to predict the number of pickups as accurately as possible for 
 
 ## Approach:
 
-- Performed data outlier removal, univariate analysis (boxplots, pdf plots), preprocessing (log-transforms), data preparation (KMeans Clustering and time binning with smoothing) and featurization (up to 19 features). 
-- Applied simple-MA, weighted-MA, exponential-MA, Linear Regression, Random Forest and XGBoost Regressors. 
+- Removed outliers using univariate analysis; Divided NYC into regions with KMeans Clustering and also applied time binning with smoothing for each region
+- Used simple/weighted/exponential-Moving Average as baselines; Performed featurization (lags, region, weighted average, fourier transforms) and applied Linear Regressor, Random Forest Regressor and XGBoost Regressor as final models.
 
 ## Results:
-- Achieved best test MAPE of 11.57% with XGBoost. 
+- Reduced test MAPE to 11.57% at best with XGBoost Regressor.
 
 ## [Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Description:
 
