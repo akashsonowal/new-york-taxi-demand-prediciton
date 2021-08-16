@@ -20,8 +20,11 @@ Our objective is to predict the number of pickups as accurately as possible for 
 
 ## Approach:
 
-## Results:
+- Performed data outlier removal, univariate analysis (boxplots, pdf plots), preprocessing (log-transforms), data preparation (KMeans Clustering and time binning with smoothing) and featurization (up to 19 features). 
+- Applied simple-MA, weighted-MA, exponential-MA, Linear Regression, Random Forest and XGBoost Regressors. 
 
+## Results:
+- Achieved best test MAPE of 11.57% with XGBoost. 
 
 ## [Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Description:
 
