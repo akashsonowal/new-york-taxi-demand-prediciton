@@ -23,7 +23,7 @@ Our objective is to predict the number of pickups as accurately as possible for 
 We have used Jan-2015 and Jan-2016 data.
 | Field Name | Description | 
 | :---         |     :---:      |   
-| Vendor ID   | A code indicating the TPEP provider that provided the record. 1. Creative Mobile Technologies 2. VeriFone Inc.| 
+| Vendor ID   | A code indicating the TPEP provider that provided the record. <br> 1. Creative Mobile Technologies <br> 2. VeriFone Inc.| 
 | tpep_pickup_datetime    | git diff       | 
 
 ## Acknowledgments
