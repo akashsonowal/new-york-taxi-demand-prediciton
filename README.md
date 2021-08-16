@@ -24,7 +24,13 @@ We have used Jan-2015 and Jan-2016 data.
 | Field Name | Description | 
 | :---         |     :---:      |   
 | Vendor ID   | A code indicating the TPEP provider that provided the record.<br>1. Creative Mobile Technologies<br>2. VeriFone Inc.| 
-| tpep_pickup_datetime    | git diff       | 
+| tpep_pickup_datetime | The date and time when the meter was engaged.|
+| tpep_dropoff_datetime | The date and time when the meter was disengaged.|
+| Passenger_count | The number of passengers in the vehicle. This is a driver-entered value.|
+| Trip_distance | The elapsed trip distance in miles reported by the taximeter.|
+| Pickup_longitude | Longitude where the meter was engaged.|
+| Pickup_latitude | Latitude where the meter was engaged.|
+
 
 ## Acknowledgments
 
