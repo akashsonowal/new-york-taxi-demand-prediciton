@@ -34,7 +34,7 @@ RateCodeID
 Store_and_fwd_flag
 Dropoff_longitude
 Dropoff_ latitude
-Payment_type
+| Payment_type | A numeric code signifying how the passenger paid for the trip.<br>1. Credit card<br>2. Cash<br>3. No charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|
 | Fare_amount | The time-and-distance fare calculated by the meter.|
 | Extra | Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges.|
 | MTA_tax | 0.50 MTA tax that is automatically triggered based on the metered rate in use.|
