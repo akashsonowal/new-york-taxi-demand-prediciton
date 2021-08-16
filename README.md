@@ -30,10 +30,10 @@ We have used Jan-2015 and Jan-2016 data.
 | Trip_distance | The elapsed trip distance in miles reported by the taximeter.|
 | Pickup_longitude | Longitude where the meter was engaged.|
 | Pickup_latitude | Latitude where the meter was engaged.|
-RateCodeID
-Store_and_fwd_flag
-Dropoff_longitude
-Dropoff_ latitude
+| RateCodeID | The final rate code in effect at the end of the trip.<br>1. Standard rate<br>2. JFK<br>3. Newark<br>4. Nassau or Westchester<br>5. Negotiated fare<br>6. Group ride |
+| Store_and_fwd_flag | This flag indicates whether the trip record was held in vehicle memory before sending to the vendor, aka “store and forward,” because the vehicle did not have a connection to the server.<br>Y= store and forward trip<br>N= not a store and forward trip | 
+| Dropoff_longitude | Longitude where the meter was disengaged.|
+| Dropoff_ latitude | Latitude where the meter was disengaged.|
 | Payment_type | A numeric code signifying how the passenger paid for the trip.<br>1. Credit card<br>2. Cash<br>3. No charge<br>4. Dispute<br>5. Unknown<br>6. Voided trip|
 | Fare_amount | The time-and-distance fare calculated by the meter.|
 | Extra | Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges.|
