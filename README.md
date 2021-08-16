@@ -24,7 +24,7 @@ Our objective is to predict the number of pickups as accurately as possible for 
 - Used simple/weighted/exponential-Moving Average as baselines; Performed featurization (lags, region, weighted average, fourier transforms) and applied Linear Regressor, Random Forest Regressor and XGBoost Regressor as final models.
 
 ## Results:
-- Reduced test MAPE to 11.57% at best with XGBoost Regressor.
+- Reduced test MAPE to best at 11.57% with XGBoost Regressor.
 
 ## [Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Description:
 
