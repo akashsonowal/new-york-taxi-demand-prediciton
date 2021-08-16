@@ -18,6 +18,11 @@ Our objective is to predict the number of pickups as accurately as possible for 
 
 - Relative Errors: Mean Absolute Percentage Error will be the relative error we will consider. Let say the predicted pickups for a particular location are 100, but actual pickups are 102, the percentage error will be 2% and Absolute error is 2. The taxi driver will be more interested in the percentage error than the absolute error. Let say in some region the predicted pickups are 250, and if taxi driver knows that the relative error is 10% then he/she will consider the predicted result to be in the range of 225 to 275, which is considerable. Our goal is to reduce the percentage error is low as possible.
 
+## Approach:
+
+## Results:
+
+
 ## [Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Description:
 
 We have used Jan-2015 and Jan-2016 data.
