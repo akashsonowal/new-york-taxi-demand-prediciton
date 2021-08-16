@@ -21,6 +21,10 @@ Our objective is to predict the number of pickups as accurately as possible for 
 ## [Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) Description:
 
 We have used Jan-2015 and Jan-2016 data.
+| Field Name | Description | 
+| :---         |     :---:      |   
+| Vendor ID   | git status     | 
+| tpep_pickup_datetime    | git diff       | 
 
 ## Acknowledgments
 
